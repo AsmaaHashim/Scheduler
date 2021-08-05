@@ -1,0 +1,42 @@
+Dependencies for Project 'scheduler', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_ld.s)(0x5FC7766C)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_ld.lst --xref -o .\startup_stm32f10x_ld.o --depend .\startup_stm32f10x_ld.d)
+F (.\system_stm32f10x.c)(0x5F57707B)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x5F3BBF91)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C4C22)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C4C22)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C4C22)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532C47BA)
+F (.\RCC_program.c)(0x5FC7766C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\rcc_program.o --omf_browse .\rcc_program.crf --depend .\rcc_program.d)
+I (STD_TYPES.h)(0x5F577022)
+I (BIT_MATH.h)(0x5F577022)
+I (RCC_interface.h)(0x5F576DD6)
+I (RCC_private.h)(0x5F576DD6)
+I (RCC_config.h)(0x5F576DD6)
+F (.\STK_program.c)(0x5F576F12)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\stk_program.o --omf_browse .\stk_program.crf --depend .\stk_program.d)
+I (STD_TYPES.h)(0x5F577022)
+I (BIT_MATH.h)(0x5F577022)
+I (STK_interface.h)(0x5F576F12)
+I (STK_private.h)(0x5F576F12)
+I (STK_config.h)(0x5F576F12)
+F (.\DIO_program.c)(0x5F577022)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\dio_program.o --omf_browse .\dio_program.crf --depend .\dio_program.d)
+I (STD_TYPES.h)(0x5F577022)
+I (BIT_MATH.h)(0x5F577022)
+I (DIO_interface.h)(0x5F577022)
+I (DIO_private.h)(0x5F577022)
+I (DIO_config.h)(0x5F576FAB)
+F (.\OS_program.c)(0x5FC776AB)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\os_program.o --omf_browse .\os_program.crf --depend .\os_program.d)
+I (STD_TYPES.h)(0x5F577022)
+I (BIT_MATH.h)(0x5F577022)
+I (STK_interface.h)(0x5F576F12)
+I (OS_interface.h)(0x5F593E72)
+I (OS_private.h)(0x5F5A7766)
+I (OS_config.h)(0x5F576CE5)
+F (.\main.c)(0x5FC7766C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (STD_TYPES.h)(0x5F577022)
+I (BIT_MATH.h)(0x5F577022)
+I (RCC_interface.h)(0x5F576DD6)
+I (STK_interface.h)(0x5F576F12)
+I (DIO_interface.h)(0x5F577022)
+I (OS_interface.h)(0x5F593E72)
+I (OS_private.h)(0x5F5A7766)
